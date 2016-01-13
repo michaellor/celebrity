@@ -16,8 +16,11 @@ $(document).ready(function() {
     if (gender === 'female' && food === 'mediterranean' && drink === 'beer') {
       $("#person4").show()}
 
-    if ("#survey")
-      alert("Sorry you are not compatible with anyone!");
+    else {
+        // return false;
+        alert("Sorry you are not compatible with anyone!");
+    }
+
 
     //
     // if (gender === 'female' && food === 'mexican' || 'mediterranean' && drink !== 'wine') {
@@ -25,8 +28,8 @@ $(document).ready(function() {
 
 
     // $("#gender").empty().append("quote");
-    $("#quote").show();
-    return false;
+    // $("#quote").show();
+    // return false;
     //
     // if (gender === 'female' && food === 'mexican' || 'mediterranean' && drink !== 'wine') {
     // } else {

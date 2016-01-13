@@ -2,6 +2,14 @@
   display: none;
 }
 
+p {
+  font-size: 14pt;
+  color: red;
+  padding: left;
+
+}
+
+
 img {
   width: 200px;
   height: auto;
