@@ -1,4 +1,4 @@
-#person1, #person2, #person3, #person4 {
+#person1, #person2, #person3, #person4, #error {
   display: none;
 }
 
@@ -8,7 +8,6 @@ p {
   padding: left;
 
 }
-
 
 img {
   width: 200px;

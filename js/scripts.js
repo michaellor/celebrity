@@ -4,8 +4,10 @@ $(document).ready(function() {
     var food = $("select#food").val();
     var drink = $("select#drink").val();
 
+
     if (gender === 'male' && food === 'vegetarian' && drink === 'wine') {
-      $("#person1").show()}
+      $("#person1").show()
+      $("#person2").hide()}
 
     if (gender === 'female' && food === 'mexican' && drink === 'liquor') {
       $("#person2").show()}
@@ -17,9 +19,11 @@ $(document).ready(function() {
       $("#person4").show()}
 
     else {
-        // return false;
-        alert("Sorry you are not compatible with anyone!");
-    }
+      $("#error").show();
+      $("#error").hide();
+
+      }
+
 
 
     //
